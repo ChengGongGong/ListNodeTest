@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @description:
- * @author: 80261504 xpc
+ * @author：xpc
  * @date: 2021/9/24 10:37
  */
 public class ListNodeTest {
@@ -151,7 +151,7 @@ public class ListNodeTest {
         return dummy.next;
     }
 
-
+    //链表循环向右移k
     public ListNode rotateRight(ListNode head,int k){
             if(head==null){
                 return null;
@@ -183,6 +183,7 @@ public class ListNodeTest {
             return head;
     }
 
+    //删除链表重复的节点->链表重复的节点去重
     public ListNode deleteDuplicate(ListNode head) {
 
         ListNode dummy=new ListNode(-1);
@@ -202,6 +203,7 @@ public class ListNodeTest {
         return dummy.next;
     }
 
+    //给定x，对于小于x值的处于链表的左边，大于等于x在最右边
     public ListNode partition(ListNode head,int x){
         if(head==null){
             return null;
