@@ -3,7 +3,8 @@
      * 增加和删除 快，采用链表实现
      * 查询和修改 快，采用数组实现
      */
-    static final class LRU{
+     
+   static final class LRU{
 
         private Map<Integer,Node<Integer,Integer>> table=new HashMap<>(16);
 
